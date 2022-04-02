@@ -10,7 +10,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/packages/main.ts"),
       name: "h-ui",
-      fileName: (format) => `lib.${format}.js`,
+      fileName: (format) => `lib.${format}.ts`,
     },
     rollupOptions: {
       external: ["vue"],

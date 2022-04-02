@@ -1,7 +1,7 @@
 {
   "name": "h-ui-of-vue3",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "h-ui component ui for vue3",
   "main": "dist/lib.umd.js",
   "module": "dist/lib.es.js",
@@ -9,8 +9,8 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "dist/lib.es.js",
-      "require": "dist/lib.umd.js"
+      "import": "./dist/lib.es.js",
+      "require": "./dist/lib.umd.js"
     },
     "./*": "./*"
   },
